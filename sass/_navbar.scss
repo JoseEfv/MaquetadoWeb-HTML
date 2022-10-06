@@ -1,0 +1,19 @@
+.nav{
+    background-color: white;
+
+    &__container{
+        width: 90%;
+        margin: 0 auto;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+    &__item{
+        color: #000;
+        text-decoration: none;
+    }
+}
+svg{
+    cursor: pointer;
+}

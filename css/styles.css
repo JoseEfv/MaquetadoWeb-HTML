@@ -1,0 +1,111 @@
+.nav {
+  background-color: white;
+}
+.nav__container {
+  width: 90%;
+  margin: 0 auto;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.nav__item {
+  color: #000;
+  text-decoration: none;
+}
+
+svg {
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F5F5F5;
+  font-family: "Roboto", sans-serif;
+}
+
+.blog {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 0;
+  display: grid;
+  grid-template-columns: 5fr 0.5fr 1fr;
+  gap: 20px;
+}
+.blog select {
+  border: none;
+  outline: none;
+  background-color: #F5F5F5;
+  cursor: pointer;
+}
+.blog input {
+  border: none;
+  outline: none;
+  background-color: #F5F5F5;
+}
+.blog p {
+  font-weight: bold;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.contenedor-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  border-radius: 15px;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.card img {
+  height: 250px;
+  width: 450px;
+}
+
+.banner {
+  border-radius: 15px;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.texto {
+  text-align: left;
+  margin: 40px;
+}
+
+.navegador {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 0;
+  gap: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navegador p {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=styles.css.map */
