@@ -1,0 +1,27 @@
+.blog{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+    display: grid;
+    grid-template-columns: 5fr 0.5fr 1fr;
+    gap: 20px;
+
+    &__ecreea{
+        font-weight: bold;
+    }
+
+    &__opciones{
+        border: none;
+        outline: none;
+        background-color: #F5F5F5;
+        cursor: pointer;
+    }
+
+    &__buscar{
+        border: none;
+        outline: none;
+        background-color: #F5F5F5;
+    }
+    
+}
