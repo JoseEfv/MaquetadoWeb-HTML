@@ -14,8 +14,65 @@
   text-decoration: none;
 }
 
-svg {
-  cursor: pointer;
+.footer {
+  width: 100%;
+  position: absolute;
+  background-color: white;
+  border-top: 1px solid #000;
+}
+.footer__info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin: 50px 80px;
+}
+.footer__info__p {
+  font-weight: bold;
+}
+.footer__info__ul {
+  margin-top: 10px;
+  list-style: none;
+}
+.footer__info__li {
+  margin-top: 10px;
+}
+.footer__info__li a {
+  text-decoration: none;
+  color: #000;
+}
+.footer__copyright {
+  margin-top: 60px;
+  margin-left: 80px;
+  margin-bottom: 10px;
+}
+.footer__final {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: 1px solid #000;
+  margin-bottom: 30px;
+}
+.footer__final__izquierda {
+  margin-left: 80px;
+  margin-top: 20px;
+  justify-self: left;
+}
+.footer__final__izquierda__ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  gap: 50px;
+}
+.footer__final__izquierda__a {
+  text-decoration: none;
+  color: #000;
+}
+.footer__final__derecha {
+  display: flex;
+  margin-right: 80px;
+  margin-top: 20px;
+  justify-self: right;
+}
+.footer__final__derecha__p {
+  margin-right: 30px;
 }
 
 * {
@@ -102,6 +159,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 100px;
 }
 .navegador p {
   font-weight: bold;
